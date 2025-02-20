@@ -1,3 +1,5 @@
+//A JAVA CODE
+//CODE TO IMPLEMENT FACTORIAL
 import java.util.Scanner;
 
 public class Factorial {
@@ -36,3 +38,18 @@ public class Factorial {
         scanner.close();
     }
 }
+
+//RUNTIME CALCULATION
+/*public static long factorial(int n) {
+        // If the number is 0 or 1, return 1 as factorial
+        if (n == 0 || n == 1) {        2 Time Unit
+            return 1;                  1 Time Unit
+        }
+        long fact = 1;                 1 Time Unit
+        // Loop from 2 to n and multiply each number to get the factorial
+        for (int i = 2; i <= n; i++) {    2 Time Unit n times   
+            fact *= i;                    2 Time Unit
+        }
+        return fact;                       1 Time Unit                        
+        }*/                               //TOTAL=7+2n
+                                        //Ignore constants 0(n)
