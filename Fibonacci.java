@@ -1,3 +1,5 @@
+//JAVA CODE
+//CODE TO IMPLEMENT FIBONACII
 import java.util.Scanner;
 
 public class Fibonacci {
@@ -38,4 +40,20 @@ public class Fibonacci {
         scanner.close();
     }
 }
-
+/*
+public static void fibonacci(int n) {
+        int first = 0, second = 1;                                         2 Time unit
+        
+        // Print the first two terms
+        System.out.print("Fibonacci Series: " + first + ", " + second);    
+        
+        // Loop to calculate the next terms in the sequence
+        for (int i = 2; i < n; i++) {                                        2n Time Unit
+            int next = first + second;                                        2 Time Unit
+            System.out.print(", " + next);
+            first = second;                                                    1 Time Unit
+            second = next;                                                     1 Time Unit
+        }
+        System.out.println(); // Move to a new line after printing the series
+    }*/                                                                                       //Total = 6+2n
+                                                                                                //ignore constant 0(n)
